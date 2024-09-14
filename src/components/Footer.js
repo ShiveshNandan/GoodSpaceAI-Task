@@ -17,13 +17,13 @@ const Footer = () => {
             <img src='/Shape.png' alt='' className=""></img> Address
           </div>
           <div className="contact-item">
-            <img src='/call.png'></img> <p>+91 1234567890</p>
+            <img src='/call.png' alt='call'></img> <p>+91 1234567890</p>
           </div>
           <div className="social-media">
             <h1>Social Media</h1>
-            <a href="#" className='footer-icon'><img src='/instagram.png' ></img></a>
-            <a href="#" className='footer-icon'><img src='/youtube.png' ></img></a>
-            <a href="#" className='footer-icon'><img src='/linkedin.png'></img></a>
+            <a href="#" className='footer-icon'><img src='/instagram.png'  alt='' ></img></a>
+            <a href="#" className='footer-icon'><img src='/youtube.png'  alt='' ></img></a>
+            <a href="#" className='footer-icon'><img src='/linkedin.png' alt='' ></img></a>
           </div>
         </div>
       </div>

@@ -1,34 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import '../StyleSheets/Navbar.scss';
 
 const Navbar = () => {
-  // const [isVisible, setIsVisible] = useState(false);
-
-  
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollPosition = window.scrollY / window.innerHeight;
-  //     // console.log("position :",window.innerHeight)
-  //     if (scrollPosition > 0.2945 ) {
-  //       setIsVisible(true);
-  //     } else {
-  //       setIsVisible(false);
-  //     }
-  //   };
-
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
-
   const [menu, setmenu] = useState(false);
-  // const toggle = () => {
-  //   {theme ==='dark' ? setTheme('light') : setTheme('dark')}
-  //   // console.log(theme)
-  // }
   return (
     <div className="navbar-outer">
       <nav className="navbar">
