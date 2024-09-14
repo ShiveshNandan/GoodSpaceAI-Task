@@ -16,7 +16,9 @@
           background: linear-gradient(90deg, rgba(45,86,236,1) 40%, rgba(26,172,234,1) 60%);
           -webkit-text-fill-color: transparent;
           -webkit-background-clip: text;
-    
+          @media (max-width: 800px) {
+            margin-top: 120px;
+          }
           @media (max-width: 640px) {
             font-size: 14px;
           }
@@ -53,10 +55,6 @@
             text-underline-offset: 4px;
             font-weight: 600;
             color: rgba(26,172,234,1);
-          //   background: linear-gradient(90deg, rgba(45,86,236,1) 70%, rgba(26,172,234,1) 100%);
-          // -webkit-text-fill-color: transparent;
-          // -webkit-background-clip: text;
-
             cursor: pointer;
           }
         }
@@ -67,7 +65,7 @@
         justify-content: center;
         margin-top: 40px;
     
-        @media (max-width: 640px) {
+        @media (max-width: 800px) {
           flex-direction: column;
         }
 
@@ -86,7 +84,7 @@
           border-radius: 5px;
           color: #94A3B8;
     
-          @media (max-width: 640px) {
+          @media (max-width: 800px) {
             width: 76.33%;
             margin: 4px auto;
             font-size: 16px;
@@ -110,7 +108,7 @@
         background-size: 160%;
         background-position: right;
       }
-      @media (max-width: 640px) {
+      @media (max-width: 800px) {
         padding: 14px 2px;
           margin: 15px auto;
           width: 83.33%;

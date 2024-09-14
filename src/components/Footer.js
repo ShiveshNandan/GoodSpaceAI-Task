@@ -21,9 +21,9 @@ const Footer = () => {
           </div>
           <div className="social-media">
             <h1>Social Media</h1>
-            <a href="#" className='footer-icon'><img src='/instagram.png'  alt='' ></img></a>
+            <a href="#" className='footer-icon'><img src='/Instagram.png'  alt='' ></img></a>
             <a href="#" className='footer-icon'><img src='/youtube.png'  alt='' ></img></a>
-            <a href="#" className='footer-icon'><img src='/linkedin.png' alt='' ></img></a>
+            <a href="#" className='footer-icon'><img src='/Linkedin.png' alt='' ></img></a>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../StyleSheets/Manage.scss'; // Import the SCSS file
+import '../StyleSheets/Manage.scss';
 
 const Manage = () => {
   return (

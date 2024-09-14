@@ -8,9 +8,16 @@
   justify-content: space-between;
   margin: auto;
   width: 83.33%;
+  background: #e0f2fa;
+  z-index: 10;
 
-  @media (max-width: 640px) {
+  @media (max-width: 1024px) {
+    width: 100%;
+ }
+
+  @media (max-width: 800px) {
      width: 100%;
+     position: fixed;
   }
 
   .logo {
@@ -38,7 +45,7 @@
         transition: color 0.3s;
   
         &:hover {
-          color: #333; // Darker on hover
+          color: #333;
         }
     }
 
@@ -63,21 +70,13 @@
       }
     
 
-    @media (max-width: 640px) {
+    @media (max-width: 800px) {
       display: none;
     }
   }
 }
 
-
-
-
-
-
-
-
 .open{
-  // background: #000;
   height: 20px;
   width: 20px;
   display: flex;
@@ -86,7 +85,7 @@
     right: 20px;
     width: 24px;
     height: 24px;
-    @media (min-width: 640px) {
+    @media (min-width: 800px) {
       display: none;
     }
 }
@@ -107,14 +106,13 @@
   backdrop-filter: blur(8px);
   z-index: 400;
   transition: transform 0.3s ease-in-out;
-  // background: #000;
 
   &.translate-hide {
-    transform: translateX(110vw); // Hidden state
+    transform: translateX(110vw);
   }
 
   &.translate-show {
-    transform: translateX(0); // Visible state
+    transform: translateX(0);
   }
 }
 
@@ -129,14 +127,14 @@
   justify-content: space-between;
   background-color: rgba(232, 253, 255, 0.832);
   z-index: 500;
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 
   &.translate-hide {
-    transform: translateX(110vw); // Hidden state
+    transform: translateX(110vw);
   }
 
   &.translate-show {
-    transform: translateX(0); // Visible state
+    transform: translateX(0);
   }
 
   .close-icon {
@@ -166,7 +164,7 @@
         transition: color 0.3s;
   
         &:hover {
-          color: #333; // Darker on hover
+          color: #333;
         }
     }
   }

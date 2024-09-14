@@ -20,7 +20,6 @@ const Navbar = () => {
 
         {/*============ mobile navbar =========== */}
         <div onClick={()=> {setmenu(true)}} className='open'><img src="/menu.png" alt="" className='open-menu' /></div>
-        {/* <div className='black-div'> */}
         <div onClick={() => setmenu(false)} className={`menu-overlay ${!menu ? "translate-hide" : "translate-show"}`}>
       <div className={`menu-content ${!menu ? "translate-hide" : "translate-show"}`}>
         <img onClick={() => { setmenu(false) }} src={"/close.png"} height={100} width={1000} alt='' className='close-icon' />
@@ -34,7 +33,6 @@ const Navbar = () => {
 
       </div>
     </div>
-        {/* </div> */}
       </nav>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../StyleSheets/Customers.scss'; // Importing the SCSS file
+import '../StyleSheets/Customers.scss';
 
 const Customers = () => {
   return (

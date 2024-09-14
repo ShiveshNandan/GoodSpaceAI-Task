@@ -15,7 +15,7 @@ const Carousel = () => {
       }
     };
 
-    const interval = setInterval(handleScroll, 10); 
+    const interval = setInterval(handleScroll, 15); 
 
     return () => clearInterval(interval); 
   }, []);

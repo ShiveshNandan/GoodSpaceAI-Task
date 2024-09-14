@@ -2,7 +2,7 @@
 .customers-section {
   display: none;
 
-  @media (min-width: 640px) {
+  @media (min-width: 800px) {
     display: block;
   }
 
@@ -13,6 +13,9 @@
     margin: auto;
     margin-top: 60px;
     margin-bottom: 90px;
+    @media (max-width: 1020px) {
+      width: 95%;
+    }
 
     .title {
       font-size: 1.875rem;

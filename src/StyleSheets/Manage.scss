@@ -2,7 +2,7 @@
     background-color: #E3F0F9;
     display: none;
   
-    @media (min-width: 640px) {
+    @media (min-width: 800px) {
       display: block;
     }
 
@@ -55,11 +55,11 @@
       }
   
       .start-trial-btn {
-        padding: 0.5rem 1.25rem; // px-[20px] py-[8px]
-        background-color: #3b82f6; // blue-500
+        padding: 0.5rem 1.25rem;
+        background-color: #3b82f6;
         color: white;
-        border-radius: 0.1875rem; // rounded-[3px]
-        margin-left: 0.5rem; // ml-2
+        border-radius: 0.1875rem;
+        margin-left: 0.5rem; 
 
 
         padding: 10px 20px;
