@@ -1,0 +1,133 @@
+    .header {
+      width: 83.33%;
+      margin: auto;
+    
+      @media (max-width: 640px) {
+        width: 100%;
+      }
+    
+      .text-container {
+        text-align: center;
+        margin-top: 60px;
+    
+        .top-heading {
+          font-size: 28px;
+          font-weight: 600;
+          background: linear-gradient(90deg, rgba(45,86,236,1) 40%, rgba(26,172,234,1) 60%);
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+    
+          @media (max-width: 640px) {
+            font-size: 14px;
+          }
+        }
+    
+        .main-heading {
+          margin-top: 25px;
+          font-size: 56px;
+          color: #334155;
+          font-family: 'Extatica';
+          font-weight: 600;
+    
+          @media (max-width: 640px) {
+            font-size: 28px;
+            margin-top: 10px;
+          }
+        }
+    
+        .description {
+          width: 66.66%;
+          margin: auto;
+          margin-top: 50px;
+          font-size: 20px;
+          color: #64748B;
+    
+          @media (max-width: 640px) {
+            font-size: 12px;
+            width: 83.33%;
+            margin-top: 15px;
+          }
+    
+          .highlight {
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            font-weight: 600;
+            color: rgba(26,172,234,1);
+          //   background: linear-gradient(90deg, rgba(45,86,236,1) 70%, rgba(26,172,234,1) 100%);
+          // -webkit-text-fill-color: transparent;
+          // -webkit-background-clip: text;
+
+            cursor: pointer;
+          }
+        }
+      }
+    
+      .trial-form {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    
+        @media (max-width: 640px) {
+          flex-direction: column;
+        }
+
+        .email-input{
+          width: 350px;
+        }
+
+        .input-field::placeholder, .email-input::placeholder{
+          color:#94A3B8;
+        }
+        .input-field, .email-input {
+          margin: 0px 3px;
+          padding: 12px 15px;
+          background: #F1F5F9;
+          border: 1px solid #CBD5E1;
+          border-radius: 5px;
+          color: #94A3B8;
+    
+          @media (max-width: 640px) {
+            width: 76.33%;
+            margin: 4px auto;
+            font-size: 16px;
+          }
+        }
+    
+        .trial-button {
+          padding: 10px 20px;
+          margin-left: 10px;
+      background: linear-gradient(110deg, rgba(45,86,236,1) 20%, rgba(26,172,234,1) 100%);
+      font-weight: 600;
+      color: #F8FAFC;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      transition:background-position 0.4s ease;
+      
+      &:hover {
+        background-size: 160%;
+        background-position: right;
+      }
+      @media (max-width: 640px) {
+        padding: 14px 2px;
+          margin: 15px auto;
+          width: 83.33%;
+        font-size: 17px;
+      }
+        }
+      }
+    
+      .free-trial-info {
+        text-align: center;
+        margin-top: 12px;
+        font-size: 16px;
+        color: #64748B;
+    
+        @media (max-width: 640px) {
+          font-size: 17px;
+        }
+      }
+    }
+    

@@ -1,0 +1,101 @@
+
+.customers-section {
+  display: none;
+
+  @media (min-width: 640px) {
+    display: block;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 83.33%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 90px;
+
+    .title {
+      font-size: 1.875rem;
+      // font-size: 28px;
+          font-weight: 600;
+          font-family: "Extatica";
+          background: linear-gradient(90deg, rgba(45,86,236,1) 40%, rgba(26,172,234,1) 60%);
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+    
+          @media (max-width: 640px) {
+            font-size: 14px;
+          }
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .testimonials-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .testimonial-item {
+        width: 25%;
+        margin-top: 30px;
+        line-height: 25px;
+        padding: 10px 30px;
+        padding-bottom: 10px;
+        border-radius: 12px;
+
+        .feedback {
+          color: #64748B;
+          font-size: 16px;
+        }
+
+        .customer-info {
+          display: flex;
+          margin-top: 40px;
+
+          .customer-image {
+            height: 3rem;
+            width: 3rem;
+            margin: auto 0px;
+            background-color: #3b82f6;
+            border-radius: 50%;
+          }
+
+          .customer-details {
+            // margin: 0;
+            margin-left: 14px;
+
+
+            .customer-name {
+              font-weight: 600;
+              font-size: 20px;
+              margin: 0;
+              color: #475569;
+            }
+
+            .customer-position {
+              font-weight: 300;
+              font-size: 14px;
+              margin: 0;
+              color: #64748B;
+            }
+          }
+        }
+      }
+
+      .rohit {
+        background-color: #365EEE1A;
+        border: 2px solid #365EEE4D;
+      }
+
+      .alan {
+        background-color: #1AACEA1A;
+        border: 2px solid #1AACEA4D;
+      }
+
+      .mark {
+        background-color: #2480EB1A;
+        border: 2px solid #2480EB4D;
+      }
+    }
+  }
+}

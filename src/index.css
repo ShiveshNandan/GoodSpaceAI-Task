@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/src/StyleSheets/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Extatica';
+  src: url('/src/StyleSheets/fonts/Extatica-Regular.otf');
+}
+
+body {
+  margin: 0;
+  font-family: "Inter";
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', */
+    /* 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', */
+    /* sans-serif 'Inter'; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(0deg, #F8FAFC 70%, rgba(26,172,234,1) 330%);
+  /* background: linear-gradient(0deg, #F8FAFC 20%, rgba(26,172,234,1) 100%); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
